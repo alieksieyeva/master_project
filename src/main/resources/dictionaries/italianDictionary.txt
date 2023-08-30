@@ -1,1 +1,8 @@
 HELP!=!aiuto
+QUIT!=!esci
+WELCOME!=!Benvenuto nel programma di gestione del nostro negozio di dispositivi elettronici
+INSERT_COMMAND!=!Per favore, inserisci un comando
+INSERT_ID!=!Inserisci id
+INSERT_TYPE!=!Cosa vuoi cercare
+NOT_FOUND!=!Non trovato
+WRONG_TYPE!=!Tipo non esistente

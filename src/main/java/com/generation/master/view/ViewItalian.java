@@ -17,10 +17,10 @@ import lombok.Getter;
 
 public class ViewItalian
 {
-	private ClienteItalianView clView;
-	private ComponenteItalianView comView;
-	private DispositivoItalianView disView;
-	private PcItalianView pcView;
+	private ClienteItalianView clView = new ClienteItalianView();
+	private ComponenteItalianView comView= new ComponenteItalianView();
+	private DispositivoItalianView disView = new DispositivoItalianView();
+	private PcItalianView pcView = new PcItalianView();
 	@Getter
 	private Map <String, String> dictionary;
 	

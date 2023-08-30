@@ -6,6 +6,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+import org.springframework.util.ResourceUtils;
+
 import lombok.Getter;
 
 public class ItalianDictionary 
@@ -15,7 +17,7 @@ public class ItalianDictionary
 	
 	public ItalianDictionary () throws FileNotFoundException //costruttore di ItalianDictionary
 	{
-		File file = new File("dictionaries\\italianDictionary.txt");
+		File file = ResourceUtils.getFile("classpath:dictionaries/italianDictionary.txt");
 		Scanner fileReader = new Scanner(file);
 		while(fileReader.hasNextLine())
 		{
