@@ -6,5 +6,5 @@ import com.generation.master.model.entity.Componente;
 
 public interface ComponenteRepository extends JpaRepository <Componente, Integer>
 {
-
+	public Componente findByModello(String modello);
 }
