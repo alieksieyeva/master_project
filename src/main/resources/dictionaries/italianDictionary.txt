@@ -17,3 +17,5 @@ INSERT_DATE_ORDER!=!Inserisci la data del ordine
 INSERT_ETA!=!Inserisci la data pevista della consegna
 INSERT_MODEL!=!Inserisci il modello del componente
 INSERT_COMPONENT_TYPE!=!Inserisci il tipo del componente
+INVALID_COMMAND!=!Comando non riconosciuto
+GOOD_BYE!=!Grazie e arrivederci
